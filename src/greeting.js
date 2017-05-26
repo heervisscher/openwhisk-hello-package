@@ -6,7 +6,6 @@
  */
 function main(params) {
     var name = params.name || params.payload || 'stranger';
-    var place = params.place || 'i/o insights fv richard';
-    var challenge = params.challenge || 'no challenge';
-    return {"challenge": challenge};
+    var place = params.place || 'i/o insights fv viddy';
+    return {payload:  'Hello, ' + name + ' from ' + place + ' !'};
 }
